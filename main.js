@@ -78,3 +78,4 @@ function showErrorMessage(message) {
     errorMessage.style.display = "none";
   }, 5000);
 }
+
