@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tagalog Meme Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="meme-generator">
+      <h1 class="page-title">Tagalog Meme Generator</h1>
+      <button class="generate-meme-btn">Generate Meme</button>
+      <h2 class="meme-title">Loading...</h2>
+      <img id="meme-image" src="" alt="" />
+      <div class="meme-author"></div>
+      <div class="caption-input">
+        <input type="file" id="image-input" accept="image/*" />
+        <input type="text" id="caption" placeholder="Enter caption" />
+        <button id="send-meme-btn">Send Meme</button>
+        <div id="caption-messages">
+          <div id="success-message" class="message success-message"></div>
+          <div id="error-message" class="message error-message"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
